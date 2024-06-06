@@ -1,0 +1,79 @@
+/* Result container styles */
+.result {
+  display: block;
+  margin-top: 1rem;
+}
+
+/* Container for result */
+.container-result {
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--text-secondary-color);
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Container for result items */
+.container-itms-result {
+  padding: 30px 50px;
+  width: 100%;
+}
+
+/* Container for valid result */
+.container-valid-result {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--text-secondary-color);
+  margin-block: 1rem;
+}
+
+.container-valid-result span {
+  display: flex;
+  justify-content: center;
+  color: var(--text-secondary-color);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Your link section */
+.result-your-link {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  text-align: left;
+  align-content: center;
+}
+
+.result-your-link span {
+  font-weight: 600;
+  font-size: 14px;
+  align-content: center;
+  color: var(--text-primary-color);
+}
+
+.result-your-link h2 {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 18px;
+  align-content: center;
+  font-weight: bold;
+  color: var(--button-primary-color);
+  cursor: pointer;
+}
+
+.result-your-link h2 i {
+  align-content: center;
+  color: var(--button-primary-color);
+}
+
+/* Transition for copy icon */
+.transition-icon-copy {
+  align-content: center;
+  transition: ease 300ms;
+}
+
+/* Checkbox circle fill icon styles */
+.ri-checkbox-circle-fill {
+  align-content: center;
+  transform: scale(1.3);
+}

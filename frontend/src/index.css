@@ -1,0 +1,48 @@
+/* Global CSS Colors */
+:root {
+  --bg-color: white; /* Background color */
+  --text-primary-color: #263238; /* Primary text color */
+  --text-secondary-color: #8a8a8a; /* Secondary text color */
+  --button-primary-color: #30c59b; /* Primary button color */
+  --button-hover-primary-color: #38e2b2; /* Hover color for primary button */
+}
+
+/* Global reset */
+* {
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  font-family: "Poppins", sans-serif; /* Set default font family */
+  color: var(--text-primary-color); /* Set default text color */
+  font-weight: 500; /* Set default font weight */
+}
+
+/* Body styles */
+body {
+  width: 100%; /* Full width */
+  background: var(--bg-color); /* Set background color */
+}
+
+/* Code tag styles */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace; /* Set font for code tags */
+}
+
+nav {
+  width: 100%; /* Full width for navigation */
+  align-content: center; /* Center alignment */
+}
+
+/* Button reset */
+button {
+  border: none; /* Remove button border */
+  cursor: pointer; /* Set cursor to pointer */
+}
+
+li {
+  list-style: none; /* Remove default list style */
+}
+
+a {
+  text-decoration: none; /* Remove underline from anchor tags */
+}

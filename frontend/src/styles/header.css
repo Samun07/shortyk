@@ -1,0 +1,245 @@
+/* Styles for the header section */
+header {
+  align-content: center;
+  padding-inline: 4vw;
+  height: 100px;
+}
+
+/* Styles for the left section of the header */
+.header-left {
+  display: flex;
+  gap: 2rem;
+  justify-content: left;
+}
+
+/* Styles for the header logo */
+.header-logo {
+  align-content: center;
+}
+
+.header-logo a {
+  display: flex;
+  align-content: center;
+}
+
+/* Styles for the header logo text */
+.header-logo h2 {
+  font-size: 32px;
+  font-weight: bold;
+  align-content: center;
+}
+
+/* Styles for the header logo icon */
+.header-logo i {
+  font-size: 32px;
+  font-weight: bold;
+  align-content: center;
+  margin-left: 1rem;
+  color: var(--button-primary-color);
+}
+
+/* Styles for the header container */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 2rem;
+}
+
+/* Styles for the header text */
+.header-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-content: center;
+}
+
+/* Styles for the header text links */
+.header-text span {
+  color: var(--text-secondary-color);
+  font-size: 16px;
+  font-weight: 500;
+  align-content: center;
+  transition: ease 150ms;
+}
+
+/* Hover styles for header text links */
+.header-text span:hover {
+  color: var(--text-primary-color);
+}
+
+/* Active style for header text link */
+#header-text-active {
+  color: var(--button-primary-color);
+}
+
+/* Styles for the right section of the header */
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Styles for the anchor tags in header right section */
+.header-right a {
+  align-content: center;
+}
+
+/* Styles for the buttons in header right section */
+.header-right button {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding-inline: 20px;
+  background-color: var(--button-primary-color);
+  border: none;
+  height: 40px;
+  width: 100%;
+  border-radius: 30px;
+  align-content: center;
+  cursor: pointer;
+  transition: ease 150ms;
+}
+
+/* Hover styles for buttons in header right section */
+.header-right button:hover {
+  background-color: var(--button-hover-primary-color);
+}
+
+/* Styles for icons inside buttons in header right section */
+.header-right button i {
+  color: white;
+  font-size: 14px;
+  align-content: center;
+  margin-right: 5px;
+}
+
+/* Styles for the login section in header */
+.header-log {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Styles for text in the login section */
+.header-log span {
+  color: var(--text-secondary-color);
+  font-size: 16px;
+  align-content: center;
+  transition: ease 150ms;
+}
+
+/* Hover styles for text in the login section */
+.header-log span:hover {
+  color: var(--text-primary-color);
+}
+
+/* Mobile */
+
+/* Styles for mobile hamburger menu icon */
+#iconMenu {
+  color: var(--bg-color);
+  font-size: 32px;
+  background-color: var(--button-primary-color);
+  padding: 10px 12px;
+  border-radius: 100%;
+}
+
+#iconMenu:hover {
+  background-color: var(--button-hover-primary-color);
+}
+
+/* Hide hamburger menu icon for non-mobile */
+.header-mobile-hamburguer-menu {
+  display: none;
+}
+
+/* Hide line for mobile header */
+.line-header-mobile {
+  display: none;
+}
+
+/* Transition for hamburger menu icon */
+.transition-icon-menu {
+  align-content: center;
+  transition: ease 300ms;
+}
+
+/* Styles for close icon in checkbox circle fill */
+.ri-close-line {
+  align-content: center;
+  transform: rotate(180deg);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 790px) {
+  /* Adjust styles for header right section */
+  .header-right {
+    gap: 0;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    background: linear-gradient(
+      to top,
+      #ffffff00,
+      #ffffffe3,
+      #fffffff1,
+      #fffffffb,
+      var(--bg-color)
+    );
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+
+  /* Styles for header links on smaller screens */
+  .header-right a:nth-child(1) {
+  }
+
+  .header-right a:nth-child(3) {
+    margin-bottom: 1rem;
+  }
+
+  .header-right a {
+    padding-block: 1rem;
+  }
+
+  /* Adjust styles for header text */
+  .header-text {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* Styles for line under header on mobile */
+  .line-header-mobile {
+    display: block;
+    width: 70%;
+    border-bottom: 1px solid var(--button-primary-color);
+    margin-top: 1rem;
+  }
+
+  /* Styles for login section on mobile */
+  .header-log {
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+  }
+
+  /* Styles for mobile hamburger menu icon */
+  .header-mobile-hamburguer-menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

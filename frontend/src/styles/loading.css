@@ -1,0 +1,33 @@
+/* Loading process container styles */
+.loading-process {
+  display: flex;
+  gap: 1rem;
+  align-content: center;
+  justify-content: center;
+  margin-block: 30px;
+}
+
+/* Icon styles for the loading process */
+.loading-process i {
+  color: var(--text-secondary-color);
+  font-size: 18px;
+  align-content: center;
+  animation: spin 2s linear infinite;
+}
+
+/* Keyframes for spinning animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Text styles for the loading process */
+.loading-process h1 {
+  color: var(--text-secondary-color);
+  font-size: 18px;
+  align-content: center;
+}

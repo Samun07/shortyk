@@ -1,0 +1,166 @@
+/* Styles for the footer section */
+footer {
+  background-color: var(--text-primary-color);
+  padding-block: 50px;
+  margin-top: 10vw;
+}
+
+/* Styles for the footer logo */
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+.footer-logo a {
+  display: flex;
+  align-content: center;
+}
+
+/* Styles for the footer logo text */
+.footer-logo h1 {
+  color: var(--bg-color);
+  font-size: 32px;
+  font-weight: bold;
+  align-content: center;
+}
+
+/* Styles for the footer logo icon */
+.footer-logo i {
+  font-size: 32px;
+  font-weight: bold;
+  align-content: center;
+  margin-left: 1rem;
+  color: var(--button-primary-color);
+}
+
+/* Styles for the container of footer sections */
+.container-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-inline: 4rem;
+}
+
+/* Styles for each footer section */
+.section-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  text-align: left;
+  align-content: start;
+}
+
+/* Styles for the section title */
+.section-footer span {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--bg-color);
+  align-content: center;
+}
+
+/* Styles for the list of links in each section */
+.section-footer ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  align-content: center;
+}
+
+/* Styles for each link item */
+.section-footer li {
+  font-size: 14px;
+  color: var(--text-secondary-color);
+  align-content: center;
+  transition: ease 150ms;
+}
+
+/* Hover styles for link items */
+.section-footer li:hover {
+  color: var(--button-primary-color);
+}
+
+/* Styles for paragraph in the footer */
+.section-footer p {
+  font-size: 14px;
+  color: var(--text-secondary-color);
+  align-content: center;
+}
+
+/* Styles for the newsletter subscription form */
+.input-suscribe-footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(95px, 1fr));
+  gap: 1rem;
+  align-content: center;
+  height: 100%;
+}
+
+/* Styles for the email input field */
+.input-suscribe-footer input {
+  color: var(--bg-color);
+  font-size: 14px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0px;
+  outline: 1px solid var(--button-primary-color);
+  padding-inline: 10px;
+  background-color: var(--text-primary-color);
+  transition: ease 150ms;
+}
+
+/* Hover styles for the email input field */
+.input-suscribe-footer input:hover {
+  outline: 1px solid var(--button-hover-primary-color);
+}
+
+/* Focus styles for the email input field */
+.input-suscribe-footer input:focus {
+  outline: 1px solid var(--button-hover-primary-color);
+}
+
+/* Styles for the subscribe button */
+.input-suscribe-footer button {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--button-primary-color);
+  border: 0px;
+  border-radius: 30px;
+  cursor: pointer;
+  height: 40px;
+  transition: ease 150ms;
+}
+
+/* Hover styles for the subscribe button */
+.input-suscribe-footer button:hover {
+  background-color: var(--button-hover-primary-color);
+}
+
+/* Styles for the footer social icons */
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  align-content: center;
+}
+
+/* Styles for the footer social icons */
+.footer-icons i {
+  color: var(--bg-color);
+  align-content: center;
+  transition: ease 150ms;
+}
+
+/* Hover styles for the footer social icons */
+.footer-icons i:hover {
+  color: var(--button-primary-color);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 850px) {
+  /* Adjust grid layout for smaller screens */
+  .container-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
