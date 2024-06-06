@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const baseURL =
   process.env.NODE_ENV === "production"
-    ? "https://back-end-shortyk.vercel.app/"
+    ? "https://shortyk-backend.vercel.app/"
     : `http://localhost:${process.env.PORT}/`;
 
 // Function to retrieve the original link using the shortened link
