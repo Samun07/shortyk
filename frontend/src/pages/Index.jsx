@@ -49,7 +49,12 @@ export default function Index() {
     } else {
       // Fetch API to shorten the link
       const response = await fetch(
-        "http://localhost:3000/api/link/narrowlink/",
+
+        //LocalHost URL
+        // "http://localhost:3000/api/link/narrowlink/",
+
+        //Public URL
+        "https://shortyk-backend.vercel.app/api/link/narrowlink/",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
