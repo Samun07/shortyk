@@ -7,42 +7,41 @@ header {
 
 /* Styles for the left section of the header */
 .header-left {
-  display: inline;
+  display: flex;
   justify-content: left;
-  align-content: center;
   height: 100px;
 }
 
 /* Styles for the header logo */
 .header-logo {
+  display: inline-block;
   align-content: center;
-  height: 100px;
 }
 
 .header-logo a {
   display: flex;
+  flex-wrap: nowrap;
   gap: 1rem;
   align-content: center;
-  height: 100px;
 }
 
 /* Styles for the header logo text */
 .header-logo h2 {
+  display: inline-block;
   color: var(--text-primary-color);
   font-size: 32px;
   font-weight: bold;
   align-content: center;
   text-transform: capitalize;
-  height: 100px;
 }
 
 /* Styles for the header logo icon */
 .header-logo i {
+  display: inline-block;
   font-size: 32px;
   font-weight: bold;
   align-content: center;
   color: var(--button-primary-color);
-  height: 100px;
 }
 
 /* Styles for the header container */
@@ -101,7 +100,7 @@ header {
 
 /* Styles for the buttons in header right section */
 .header-right button {
-  color: white;
+  color: var(--bg-color);
   font-size: 14px;
   font-weight: 500;
   padding-inline: 20px;
@@ -255,5 +254,9 @@ header {
     align-content: center;
     align-items: center;
     cursor: pointer;
+  }
+  
+  .header-container {
+    gap: 0;
   }
 }
