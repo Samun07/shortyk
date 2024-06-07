@@ -7,26 +7,27 @@ header {
 
 /* Styles for the left section of the header */
 .header-left {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 2rem;
+  display: inline-block;
   justify-content: left;
   align-content: center;
 }
 
 /* Styles for the header logo */
 .header-logo {
+  display: inline-block;
   align-content: center;
   width: 100%;
 }
 
 .header-logo a {
   display: flex;
+  gap: 1rem;
   align-content: center;
 }
 
 /* Styles for the header logo text */
 .header-logo h2 {
+  display: inline-block;
   color: var(--text-primary-color);
   font-size: 32px;
   font-weight: bold;
@@ -36,10 +37,10 @@ header {
 
 /* Styles for the header logo icon */
 .header-logo i {
+  display: inline-block;
   font-size: 32px;
   font-weight: bold;
   align-content: center;
-  margin-left: 1rem;
   color: var(--button-primary-color);
 }
 

@@ -42,6 +42,7 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
   padding-inline: 4rem;
+  justify-content: center;
 }
 
 /* Styles for each footer section */
