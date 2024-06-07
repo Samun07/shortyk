@@ -15,8 +15,8 @@ header {
 
 /* Styles for the header logo */
 .header-logo {
+  display: inline-block;
   align-content: center;
-  height: 100px;
 }
 
 .header-logo a {
@@ -27,23 +27,21 @@ header {
 
 /* Styles for the header logo text */
 .header-logo h2 {
-  display: inline;
+  display: inline-block;
   color: var(--text-primary-color);
   font-size: 32px;
   font-weight: bold;
   align-content: center;
   text-transform: capitalize;
-  height: 100px;
 }
 
 /* Styles for the header logo icon */
 .header-logo i {
-  display: inline;
+  display: inline-block;
   font-size: 32px;
   font-weight: bold;
   align-content: center;
   color: var(--button-primary-color);
-  height: 100px;
 }
 
 /* Styles for the header container */
@@ -249,12 +247,4 @@ header {
     gap: 1rem;
   }
 
-  /* Styles for mobile hamburger menu icon */
-  .header-mobile-hamburguer-menu {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
 }
