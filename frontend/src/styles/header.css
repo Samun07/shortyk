@@ -7,16 +7,16 @@ header {
 
 /* Styles for the left section of the header */
 .header-left {
-  display: inline-block;
+  display: inline;
   justify-content: left;
   align-content: center;
+  height: 100px;
 }
 
 /* Styles for the header logo */
 .header-logo {
-  display: inline-block;
   align-content: center;
-  width: 100%;
+  height: 100px;
 }
 
 .header-logo a {
