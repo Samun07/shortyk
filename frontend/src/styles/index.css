@@ -21,17 +21,21 @@
 }
 
 .main-texts-left h1 {
+  color: var(--text-primary-color);
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 10px;
+  text-transform: capitalize;
 }
 
 .main-texts-left p {
   font-size: 16px;
   color: var(--text-secondary-color);
+  font-weight: 500;
 }
 
 .main-texts-left button {
+  font-weight: 500;
   font-size: 16px;
   color: var(--bg-color);
   background-color: var(--button-primary-color);
@@ -39,11 +43,11 @@
   margin-block: 20px;
   border-radius: 30px;
   transition: ease 150ms;
+  text-transform: capitalize;
 }
 
 .main-texts-left button:hover {
   background-color: var(--button-hover-primary-color);
-
 }
 
 /* Right section of the main container */
@@ -67,6 +71,7 @@
 .container-main-description p {
   color: var(--text-secondary-color);
   font-size: 14px;
+  font-weight: 500;
 }
 
 /* Input link container styles */
@@ -89,13 +94,16 @@
 }
 
 .input-link-title h1 {
+  color: var(--text-primary-color);
   font-size: 30px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .input-link-title p {
   color: var(--text-secondary-color);
   font-size: 16px;
+  font-weight: 500;
 }
 
 /* Right section of the input link container */
@@ -115,6 +123,7 @@
 }
 
 .utility-list-title i {
+  font-weight: 500;
   font-size: 24px;
   color: var(--button-primary-color);
   align-content: center;
@@ -124,6 +133,8 @@
   font-size: 24px;
   font-weight: bold;
   align-content: center;
+  color: var(--text-primary-color);
+  text-transform: capitalize;
 }
 
 /* Utility List container styles */
@@ -149,10 +160,13 @@
   color: var(--button-primary-color);
   font-size: 14px;
   align-content: center;
+  font-weight: 500;
 }
 
 .text-utility-list span {
   font-size: 14px;
   color: var(--text-secondary-color);
   align-content: center;
+  font-weight: 500;
+  text-transform: capitalize;
 }

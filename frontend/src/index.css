@@ -12,8 +12,6 @@
   margin: 0; /* Reset margin */
   padding: 0; /* Reset padding */
   font-family: "Poppins", sans-serif; /* Set default font family */
-  color: var(--text-primary-color); /* Set default text color */
-  font-weight: 500; /* Set default font weight */
 }
 
 /* Body styles */

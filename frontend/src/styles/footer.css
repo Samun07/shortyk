@@ -19,11 +19,12 @@ footer {
 }
 
 /* Styles for the footer logo text */
-.footer-logo h1 {
+.footer-logo h2 {
   color: var(--bg-color);
   font-size: 32px;
   font-weight: bold;
   align-content: center;
+  text-transform: capitalize;
 }
 
 /* Styles for the footer logo icon */
@@ -58,6 +59,7 @@ footer {
   font-weight: 600;
   color: var(--bg-color);
   align-content: center;
+  text-transform: capitalize;
 }
 
 /* Styles for the list of links in each section */
@@ -71,9 +73,11 @@ footer {
 /* Styles for each link item */
 .section-footer li {
   font-size: 14px;
+  font-weight: 500;
   color: var(--text-secondary-color);
   align-content: center;
   transition: ease 150ms;
+  text-transform: capitalize;
 }
 
 /* Hover styles for link items */
@@ -84,6 +88,7 @@ footer {
 /* Styles for paragraph in the footer */
 .section-footer p {
   font-size: 14px;
+  font-weight: 500;
   color: var(--text-secondary-color);
   align-content: center;
 }
@@ -101,6 +106,7 @@ footer {
 .input-suscribe-footer input {
   color: var(--bg-color);
   font-size: 14px;
+  font-weight: 500;
   height: 40px;
   border-radius: 10px;
   border: 0px;
@@ -108,6 +114,7 @@ footer {
   padding-inline: 10px;
   background-color: var(--text-primary-color);
   transition: ease 150ms;
+
 }
 
 /* Hover styles for the email input field */
@@ -122,15 +129,16 @@ footer {
 
 /* Styles for the subscribe button */
 .input-suscribe-footer button {
-  color: white;
+  color: var(--bg-color);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   background-color: var(--button-primary-color);
   border: 0px;
   border-radius: 30px;
   cursor: pointer;
   height: 40px;
   transition: ease 150ms;
+  text-transform: uppercase;
 }
 
 /* Hover styles for the subscribe button */
@@ -147,6 +155,7 @@ footer {
 
 /* Styles for the footer social icons */
 .footer-icons i {
+  font-size: 16px;
   color: var(--bg-color);
   align-content: center;
   transition: ease 150ms;

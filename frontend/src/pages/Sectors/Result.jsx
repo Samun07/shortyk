@@ -32,7 +32,8 @@ export default function Result(props) {
             <span>
               {isValid
                 ? "The link was successfully shortened!" // Display success message if valid
-                : "There was a problem, please try again."} {/* // Display error message if not valid */}
+                : "There was a problem, please try again."}{" "}
+              {/* // Display error message if not valid */}
             </span>
           </section>
 
@@ -41,11 +42,16 @@ export default function Result(props) {
               {/* Display the shortened link if it is valid */}
               <section className="result-your-link">
                 <span>Your link:</span>
-                <h2 onClick={CopyShortenedLink}>
-                  {narrowLink}
-                  {/* Icon for copying the link */}
-                  <i id="iconCopy" class="ri-file-copy-line transition-icon-copy"></i>
-                </h2>
+                <div onClick={CopyShortenedLink} className="container-copy-link">
+                  <h2>
+                    {narrowLink}
+                    {/* Icon for copying the link */}
+                  </h2>
+                  <i
+                    id="iconCopy"
+                    class="ri-file-copy-line transition-icon-copy"
+                  ></i>
+                </div>
               </section>
             </>
           )}

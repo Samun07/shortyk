@@ -8,13 +8,16 @@ header {
 /* Styles for the left section of the header */
 .header-left {
   display: flex;
+  flex-wrap: nowrap;
   gap: 2rem;
   justify-content: left;
+  align-content: center;
 }
 
 /* Styles for the header logo */
 .header-logo {
   align-content: center;
+  width: 100%;
 }
 
 .header-logo a {
@@ -24,9 +27,11 @@ header {
 
 /* Styles for the header logo text */
 .header-logo h2 {
+  color: var(--text-primary-color);
   font-size: 32px;
   font-weight: bold;
   align-content: center;
+  text-transform: capitalize;
 }
 
 /* Styles for the header logo icon */
@@ -63,6 +68,7 @@ header {
   font-weight: 500;
   align-content: center;
   transition: ease 150ms;
+  text-transform: capitalize;
 }
 
 /* Hover styles for header text links */
@@ -78,6 +84,7 @@ header {
 /* Styles for the right section of the header */
 .header-right {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
@@ -95,7 +102,7 @@ header {
 .header-right button {
   color: white;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   padding-inline: 20px;
   background-color: var(--button-primary-color);
   border: none;
@@ -105,6 +112,8 @@ header {
   align-content: center;
   cursor: pointer;
   transition: ease 150ms;
+  color: var(--bg-color);
+  text-transform: capitalize;
 }
 
 /* Hover styles for buttons in header right section */
@@ -114,10 +123,11 @@ header {
 
 /* Styles for icons inside buttons in header right section */
 .header-right button i {
-  color: white;
+  color: var(--bg-color);
   font-size: 14px;
   align-content: center;
   margin-right: 5px;
+  font-weight: 500;
 }
 
 /* Styles for the login section in header */
@@ -131,7 +141,9 @@ header {
   color: var(--text-secondary-color);
   font-size: 16px;
   align-content: center;
+  font-weight: 500;
   transition: ease 150ms;
+  text-transform: capitalize;
 }
 
 /* Hover styles for text in the login section */
@@ -157,6 +169,7 @@ header {
 /* Hide hamburger menu icon for non-mobile */
 .header-mobile-hamburguer-menu {
   display: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* Hide line for mobile header */

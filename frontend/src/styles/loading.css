@@ -2,16 +2,18 @@
 .loading-process {
   display: flex;
   gap: 1rem;
-  align-content: center;
+  align-content: start;
   justify-content: center;
   margin-block: 30px;
 }
 
 /* Icon styles for the loading process */
 .loading-process i {
-  color: var(--text-secondary-color);
+  color: var(--button-primary-color);
   font-size: 18px;
+  font-weight: 500;
   align-content: center;
+  justify-content: center;
   animation: spin 2s linear infinite;
 }
 
@@ -26,8 +28,10 @@
 }
 
 /* Text styles for the loading process */
-.loading-process h1 {
-  color: var(--text-secondary-color);
+.loading-process span {
+  color: var(--button-primary-color);
   font-size: 18px;
   align-content: center;
+  font-weight: 500;
+  text-transform: capitalize;
 }

@@ -8,7 +8,7 @@ export const Footer = () => {
       {/* Footer logo */}
       <div className="footer-logo">
         <a href="../pages/Index.jsx">
-          <h1>Shortyk</h1>
+          <h2>Shortyk</h2>
           <i class="ri-links-line"></i>
         </a>
       </div>

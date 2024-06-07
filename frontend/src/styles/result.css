@@ -32,7 +32,7 @@
   color: var(--text-secondary-color);
   text-align: center;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Your link section */
@@ -46,24 +46,33 @@
 
 .result-your-link span {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   align-content: center;
   color: var(--text-primary-color);
 }
 
-.result-your-link h2 {
+.container-copy-link {
   display: flex;
-  gap: 0.5rem;
-  font-size: 18px;
+  gap: 1rem;
+  justify-content: left;
   align-content: center;
-  font-weight: bold;
-  color: var(--button-primary-color);
-  cursor: pointer;
 }
 
-.result-your-link h2 i {
+.container-copy-link h2 {
+  font-size: 16px;
+  align-content: center;
+  font-weight: 600;
+  color: var(--button-primary-color);
+  cursor: pointer;
+  text-align: left;
+}
+
+.container-copy-link i {
+  font-size: 16px;
+  font-weight: 500;
   align-content: center;
   color: var(--button-primary-color);
+  text-align: left;
 }
 
 /* Transition for copy icon */

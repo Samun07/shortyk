@@ -50,7 +50,7 @@ export default function Index() {
       // Fetch API to shorten the link
       const response = await fetch(
 
-        //LocalHost URL
+        // // LocalHost URL
         // "http://localhost:3000/api/link/narrowlink/",
 
         //Public URL
@@ -149,7 +149,7 @@ export default function Index() {
           {status === "loading" && (
             <div className="loading-process">
               <i className="ri-loader-4-line"></i>
-              <h1>Loading...</h1>
+              <span>Loading...</span>
             </div>
           )}
 
