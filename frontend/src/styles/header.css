@@ -27,21 +27,23 @@ header {
 
 /* Styles for the header logo text */
 .header-logo h2 {
-  display: inline-block;
+  display: inline;
   color: var(--text-primary-color);
   font-size: 32px;
   font-weight: bold;
   align-content: center;
   text-transform: capitalize;
+  height: 100px;
 }
 
 /* Styles for the header logo icon */
 .header-logo i {
-  display: inline-block;
+  display: inline;
   font-size: 32px;
   font-weight: bold;
   align-content: center;
   color: var(--button-primary-color);
+  height: 100px;
 }
 
 /* Styles for the header container */
