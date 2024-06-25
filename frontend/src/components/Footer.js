@@ -106,7 +106,7 @@ export const Footer = () => {
 
           <div className="footer-icons">
             <a
-              href="www.linkedin.com/in/jose-samuel-samuel-sanchez-5174a51b4"
+              href="https://www.linkedin.com/in/jose-samuel-samuel-sanchez-5174a51b4"
               target="_blank"
             >
               <i className="ri-linkedin-fill"></i>
